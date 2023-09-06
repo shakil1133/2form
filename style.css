@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0; 
+    padding: 0;
+}
+body{
+    background-image: url(bg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg{
+padding-top: 100px;
+padding-bottom: 50px;
+}
+.heading{
+color: white;
+text-align: center;
+margin-bottom: 40px;
+}
+.contact-form{
+display: flex;
+width: 70%;
+margin: auto;
+justify-content: space-between;
+align-items: center;
+}
+.contact-info{
+    width: 48%;
+}
+.contact-info h3{
+color: white;
+font-size: 25px;
+margin-bottom: 30px ;
+}
+.info-box{
+display: flex;
+margin-bottom: 30px;
+}
+.icon{color: white;width: 30px;font-size: 25px;}
+.info{
+   color: white; 
+
+}
+.info h4{font-size: 22px;color: #ffffffc7;}
+.info p{margin-top: ;color: rgb(255 255 255 / 82%);}
+.main-form{
+width: 48%;
+}
+.form{
+background: white;
+padding: 30px;
+border-radius: 10px;
+
+}
+.form h2{
+margin-bottom: 10px;
+}
+.form form input{
+border:1px solid #dedede;
+width: 100%;
+margin-bottom: 15px;
+padding: 15px 0 15px 10px;
+}
+.form form input[type="submit"]{
+width: auto;
+padding: 0;
+background: rgba(21, 236, 236, 0.692);
+color: white;
+padding: 15px 25px;
+border-radius: 8px;
+font-size: 16px;
+}
+.form form textarea{
+    border:1px solid #dedede;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px 0 15px 10px;
+}
+.form form input:focus, .form form textarea:focus{
+    outline: none;
+    box-shadow: 1px 1px 1px #1332e0a9;
+}
+
